@@ -1,0 +1,18 @@
+using list values in a dictionary is the best method for creating a dataframe by Input
+
+df[car_type].value_counts() is a series function. cannot be applied to data frame
+
+df.loc[7]
+will display all row values of index = 7
+
+We can feed a list directly into DF
+df = pd.DataFrame(list(digits.data))
+useful for vectors and matrix visualize/operate
+consume a sklearn.utils.Bunch data
+
+We can extract a target column, reshape and visualize:
+plt.imshow(image_values.reshape(8,8), cmap ='gray') #this is in 64x1 -> 8x8
+This will show a pic of number 0 by reading pixel intensity values. 
+
+
+

@@ -1,0 +1,43 @@
+marker = 'o'
+markersize = 10
+color = 'gray'
+c = 'gray'
+c = '#FFFFF'
+Matlab style/Object oriented style
+plt.xlim/set_xlim
+plt.ylim/set_ylim
+xlabel/set_xlabel
+ylabel/set_ylabel
+title
+fontsize
+xticks, yticks/axes.tick_params(axis = 'x', labelsize = 20), axes.tick_params(axis = 'y', labelsize = 20)
+plt.xticks(rotation = 90)
+grid
+grid(axis = 'x') #or y 
+grid kwargs: 
+alpha #transparency
+linestyle = '-.' #pattern of line for grid
+legend
+label #prerequisite of Legend
+#legend kwarg: loc = 'center right' or loc = 0 #best position
+plt.figure(figsize=(10, 5))
+plt.tight_layout() #for plot(s) fit to the figure area
+plt.boxplot
+sns.boxplot
+#Sequential and Qualitative
+sns.heatmap(confusion, 
+            annot=True,
+            cmap = 'YlOrBr')
+sns.heatmap(confusion, 
+            annot=True,
+            cmap = 'Pastel1')
+#Histogram            
+df['price'].hist(bins = 50)
+#kwargs
+edgecolor
+linewidth
+
+plotting subplots
+
+
+
